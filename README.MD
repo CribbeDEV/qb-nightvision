@@ -6,7 +6,7 @@ Add to qb-core/shared.lua
 ```lua
 ["nightvision"] = {
     ["name"] = "nightvision",
-    ["label"] = "Night Vision goggles",
+    ["label"] = "Night Vision Goggles",
     ["weight"] = 5,
     ["type"] = "item",
     ["image"] = "nightvision.png",
