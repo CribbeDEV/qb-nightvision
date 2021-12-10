@@ -2,7 +2,7 @@ nv = false
 
 RegisterNetEvent('qb-nightvision:client:toggle', function()
     local ChangeClothes = true -- Change this to false if you don't want the mask to appear on the players character
-    local ped = GetPlayerPed(-1)
+    local ped = PlayerPedId()
     if nv == false then
         nv = true
         TriggerServerEvent("InteractSound_SV:PlayOnSource", "nv", 0.25)
