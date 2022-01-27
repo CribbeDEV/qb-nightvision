@@ -2,7 +2,7 @@
 
 **Item**
 
-Add to qb-core/shared.lua
+Add to qb-core/shared/items.lua
 ```lua
 ["nightvision"] = {
     ["name"] = "nightvision",
